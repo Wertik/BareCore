@@ -1,10 +1,8 @@
-package space.devport.bare;
+package space.devport.partychat;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import space.devport.bare.chat.ChatListener;
-import space.devport.bare.chat.PlayerColorManager;
 
-public class CorePlugin extends JavaPlugin {
+public class ChatPlugin extends JavaPlugin {
 
     private final PlayerColorManager colorManager = new PlayerColorManager(this);
 

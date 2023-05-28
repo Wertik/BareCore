@@ -1,7 +1,6 @@
-package space.devport.bare.chat;
+package space.devport.partychat;
 
 import org.jetbrains.annotations.NotNull;
-import space.devport.bare.CorePlugin;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +9,7 @@ import java.util.UUID;
 
 public class PlayerColorManager {
 
-    private final CorePlugin plugin;
+    private final ChatPlugin plugin;
 
     private final Gradient[] availableGradients = new Gradient[]{
             new Gradient("#35FF42", "#97FF8E"),
@@ -22,7 +21,7 @@ public class PlayerColorManager {
 
     private final Map<UUID, Gradient> playerGradients = new HashMap<>();
 
-    public PlayerColorManager(CorePlugin plugin) {
+    public PlayerColorManager(ChatPlugin plugin) {
         this.plugin = plugin;
     }
 

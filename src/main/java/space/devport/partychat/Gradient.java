@@ -1,4 +1,4 @@
-package space.devport.bare.chat;
+package space.devport.partychat;
 
 public record Gradient(String startingColor, String... colors) {
 
