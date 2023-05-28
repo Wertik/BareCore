@@ -1,0 +1,5 @@
+name: BareCore
+main: space.devport.bare.CorePlugin
+author: Wertik1206
+api-version: 1.19
+version: 1.0
