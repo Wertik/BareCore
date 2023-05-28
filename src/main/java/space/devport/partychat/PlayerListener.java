@@ -46,8 +46,6 @@ public class PlayerListener implements Listener {
         // Calculate phase between 0 and 1 for the transition
         double phase = Math.sin((Math.PI / 3) * messageCount.getAndIncrement() / transitionColors.length);
 
-        plugin.getServer().getLogger().info(String.format("Phase: %.6f", phase));
-
         // Format a message with a transition
         final String message = String.format(Locale.US, "<transition:%s:%.6f>%s</transition>", String.join(":", transitionColors), phase, ChatPlugin.SERIALIZER.serialize(event.originalMessage()));
 
