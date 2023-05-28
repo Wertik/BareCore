@@ -2,4 +2,4 @@ name: PartyChat
 main: space.devport.partychat.ChatPlugin
 author: Wertik1206
 api-version: 1.19
-version: 1.0
+version: 1.1.0
